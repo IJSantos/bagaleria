@@ -1,6 +1,6 @@
 [build]
   command = "ng build --configuration production"
-  publish = "dist/bagaleria"
+  publish = "dist/bagaleria/browser"
 
 # Reescrita para apps SPA (Angular, React, Vue)
 [[redirects]]
