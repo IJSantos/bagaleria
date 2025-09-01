@@ -6,6 +6,7 @@ body {
 
 .house-card {
   transition: transform 0.2s;
+  margin-top: 0;
   
   &:hover {
     transform: translateY(-2px);
@@ -31,8 +32,10 @@ body {
 }
 
 .sidebar {
-  min-height: calc(100vh - 56px);
   border-right: 1px solid #dee2e6;
+  height: auto;
+  min-height: unset;
+  max-height: 100vh;
 }
 
 .sidebar-beach {
@@ -40,6 +43,10 @@ body {
   border-radius: 18px;
   box-shadow: 0 2px 16px 0 rgba(33, 147, 176, 0.07);
   border: 1px solid #b2ebf2;
+  margin-top: 0;
+  height: auto;
+  min-height: unset;
+  max-height: 100vh;
 }
 
 .sidebar-beach h5 {
@@ -91,6 +98,7 @@ body {
   box-shadow: 0 4px 24px 0 rgba(33, 147, 176, 0.10);
   padding: 32px 24px;
   margin-bottom: 32px;
+  margin-top: 0;
 }
 
 .gallery-beach h1, .gallery-beach h3 {
@@ -151,4 +159,8 @@ body {
   .min-w-md-220px {
     min-width: 220px;
   }
+}
+
+main {
+  margin-top: 0 !important;
 }
