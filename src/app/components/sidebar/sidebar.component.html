@@ -1,0 +1,19 @@
+<div class="sidebar bg-light p-3 h-100">
+  <h5 class="mb-4">Filtrar por Cidade</h5>
+
+  <ul class="nav nav-pills flex-column">
+    <li class="nav-item mb-2">
+      <button class="nav-link w-100 text-start" (click)="selectAll()">
+        <i class="bi bi-house me-2"></i>
+        Todas as Casas
+      </button>
+    </li>
+
+    <li class="nav-item mb-2" *ngFor="let city of cities">
+      <button class="nav-link w-100 text-start" (click)="selectCity(city)">
+        <i class="bi bi-geo-alt me-2"></i>
+        {{ city }}
+      </button>
+    </li>
+  </ul>
+</div>

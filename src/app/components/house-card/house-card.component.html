@@ -1,0 +1,51 @@
+<div class="card house-card h-100">
+  <div class="position-relative">
+    <img
+      [src]="house.images[currentImageIndex]"
+      [alt]="house.title"
+      class="card-img-top house-image"
+    />
+
+    <div class="image-navigation" *ngIf="house.images.length > 1">
+      <button class="btn btn-sm btn-light" (click)="prevImage()">
+        <i class="bi bi-chevron-left"></i>
+      </button>
+      <span class="mx-2 text-white"
+        >{{ currentImageIndex + 1 }}/{{ house.images.length }}</span
+      >
+      <button class="btn btn-sm btn-light" (click)="nextImage()">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+
+  <div class="card-body">
+    <h5 class="card-title">{{ house.title }}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">
+      <i class="bi bi-geo-alt"></i> {{ house.city }}
+    </h6>
+
+    <p class="card-text">{{ house.description }}</p>
+
+    <div class="house-details mb-3">
+      <span class="badge bg-primary me-2">
+        <i class="bi bi-house-door"></i> {{ house.bedrooms }} quartos
+      </span>
+      <span class="badge bg-primary me-2">
+        <i class="bi bi-droplet"></i> {{ house.bathrooms }} banheiros
+      </span>
+      <span class="badge bg-primary">
+        <i class="bi bi-arrows-fullscreen"></i> {{ house.area }}m²
+      </span>
+    </div>
+
+    <!-- <div class="price mb-3">
+      <h4 class="text-success">R$ {{ house.price | number }}</h4>
+    </div> -->
+
+    <button class="btn btn-primary w-100" (click)="downloadPdf()">
+      <i class="bi bi-download me-2"></i>
+      Baixar PDF
+    </button>
+  </div>
+</div>
