@@ -4,6 +4,10 @@ body {
   background-color: #f8f9fa;
 }
 
+body, .navbar, .navbar-brand, .sidebar, .gallery-beach, .house-card {
+  font-family: 'Montserrat', 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
 .house-card {
   transition: transform 0.2s;
   margin-top: 0;
@@ -93,7 +97,7 @@ body {
 }
 
 .gallery-beach {
-  background: linear-gradient(135deg, #e9dac5 0%, #c8b08c 100%);
+  background: linear-gradient(135deg, #f7fff7 0%, #cbeffd 100%);
   border-radius: 24px;
   box-shadow: 0 4px 24px 0 rgba(33, 147, 176, 0.10);
   padding: 32px 24px;
@@ -101,12 +105,21 @@ body {
   margin-top: 0;
 }
 
-.gallery-beach h1, .gallery-beach h3 {
-  color: #2193b0;
-  font-family: 'Segoe Script', 'Comic Sans MS', cursive, sans-serif;
+.gallery-beach h1, .gallery-beach h3, .navbar-brand {
+  font-family: 'Pacifico', 'Montserrat', 'Segoe UI', cursive, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
   text-shadow: 0 2px 8px #b2ebf2;
+}
+
+.gallery-beach h1 {
+  font-family: 'Permanent Marker', 'Caveat', 'Pacifico', 'Comic Sans MS', cursive, sans-serif;
+  font-weight: 400;
+  font-size: 2.3rem;
+  color: #1a5d7a;
+  letter-spacing: 2.5px;
+  text-shadow: 0 3px 12px #b2ebf2, 0 2px 0 #fff;
+  background: none;
 }
 
 .gallery-beach .btn-beach {
@@ -163,4 +176,14 @@ body {
 
 main {
   margin-top: 0 !important;
+}
+
+.bg-beach-modern {
+  background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+  color: #fff !important;
+}
+
+.navbar-beach-modern .navbar-brand {
+  color: #fff !important;
+  text-shadow: 0 2px 8px rgba(24,90,157,0.15);
 }
