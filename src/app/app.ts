@@ -22,5 +22,5 @@ import { GalleryComponent } from './components/gallery/gallery.component';
   styleUrls: ['./app.scss']
 })
 export class App {
-  title = 'Bagaleria - Casas na Praia';
+  title = 'BAgaleria - Sua casa de praia no sul da bahia';
 }
