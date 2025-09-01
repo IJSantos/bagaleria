@@ -47,3 +47,9 @@ body {
     color: white !important;
   }
 }
+
+@media (min-width: 768px) {
+  .min-w-md-220px {
+    min-width: 220px;
+  }
+}
