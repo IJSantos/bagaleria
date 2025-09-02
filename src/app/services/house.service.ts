@@ -22,17 +22,31 @@ export class HouseService {
     },
     {
       id: 2,
-      title: 'Casa espetacular em Cumuruxatiba - Bahia',
-      city: 'Cumuruxatiba',
-      description: 'Casa no Condomínio Pôr do Sol, no bairro Morro da Fumaça com 2 quartos, cozinha, banheiro, área externa para uso e garagem. A casa é mobiliada e equipada com eletrodomésticos. Casa ideal para quem busca tranquilidade e contato com a natureza. Faça download do arquivo para mais informações',
+      title: 'Casa para alugar em Porto Seguro - Bahia',
+      city: 'Porto Seguro',
+      description: 'Casa em condôminio em Porto Seguro proximo da orla, cozinha, banheiro, área externa para uso e garagem. A casa é mobiliada e equipada com eletrodomésticos. Casa ideal para quem busca tranquilidade e contato com a natureza.',
       price: 1200000,
       bedrooms: 2,
       bathrooms: 1,
       area: 150,
-      images: ['assets/images/houses/d-img-1.jpg', 'assets/images/houses/d-img-2.jpg', 'assets/images/houses/d-img-3.jpg'],
+      images: ['assets/images/houses/p-img-1.jpg', 'assets/images/houses/p-img-2.jpg', 'assets/images/houses/p-img-3.jpg'],
       pdfUrl: 'https://drive.google.com/file/d/1SP5xCwJMxED_g9ryKKUFsSrXR9fKYrzR/view?usp=drive_link',
       amenities: ['Piscina', 'Varanda', 'Garagem'],
-      showPdf: true
+      showPdf: false
+    },
+    {
+      id: 8,
+      title: 'Casa para alugar emCumuruxatiba - Bahia',
+      city: 'Cumuruxatiba',
+      description: 'Casa em condôminio em Cumuruxatiba, cozinha, banheiro, área externa para uso e garagem. A casa é mobiliada e equipada com eletrodomésticos. Casa ideal para quem busca tranquilidade e contato com a natureza. Faça download do arquivo para mais informações, ou entre em contato conosco por aqui.',
+      price: 1200000,
+      bedrooms: 4,
+      bathrooms: 3,
+      area: 180,
+      images: ['assets/images/houses/p-img-2.jpg', 'assets/images/houses/p-img-1.jpg', 'assets/images/houses/p-img-3.jpg'],
+      pdfUrl: 'https://drive.google.com/file/d/1SP5xCwJMxED_g9ryKKUFsSrXR9fKYrzR/view?usp=drive_link',
+      amenities: ['Piscina', 'Varanda', 'Garagem'],
+      showPdf: false
     },
     {
       id: 3,
@@ -78,17 +92,31 @@ export class HouseService {
     },
     {
       id: 6,
-      title: 'Casa espetacular em Cumuruxatiba - Bahia',
-      city: 'Cumuruxatiba',
-      description: 'Casa no Condomínio Pôr do Sol, no bairro Morro da Fumaça com 2 quartos, cozinha, banheiro, área externa para uso e garagem. A casa é mobiliada e equipada com eletrodomésticos. Casa ideal para quem busca tranquilidade e contato com a natureza. Faça download do arquivo para mais informações',
+      title: 'Casa para alugar em Porto Seguro - Bahia',
+      city: 'Porto Seguro',
+      description: 'Casa em condôminio em Porto Seguro proximo da orla, cozinha, banheiro, área externa para uso e garagem. A casa é mobiliada e equipada com eletrodomésticos. Casa ideal para quem busca tranquilidade e contato com a natureza. Faça download do arquivo para mais informações, ou entre em contato pelo telefone.',
       price: 1200000,
       bedrooms: 2,
       bathrooms: 1,
       area: 150,
-      images: ['assets/images/houses/d-img-3.jpg', 'assets/images/houses/d-img-2.jpg', 'assets/images/houses/d-img-1.jpg'],
+      images: ['assets/images/houses/p-img-3.jpg', 'assets/images/houses/p-img-2.jpg', 'assets/images/houses/p-img-1.jpg'],
       pdfUrl: 'https://drive.google.com/file/d/1SP5xCwJMxED_g9ryKKUFsSrXR9fKYrzR/view?usp=drive_link',
       amenities: ['Piscina', 'Varanda', 'Garagem'],
-      showPdf: true
+      showPdf: false
+    },
+    {
+      id: 7,
+      title: 'Casa para alugar em Porto Seguro - Bahia',
+      city: 'Porto Seguro',
+      description: 'Casa em condôminio em Porto Seguro, cozinha, banheiro, área externa para uso e garagem. A casa é mobiliada e equipada com eletrodomésticos. Casa ideal para quem busca tranquilidade e contato com a natureza. Faça download do arquivo para mais informações, , ou entre em contato pelo telefone.',
+      price: 1200000,
+      bedrooms: 2,
+      bathrooms: 1,
+      area: 150,
+      images: ['assets/images/houses/p-img-2.jpg', 'assets/images/houses/p-img-1.jpg', 'assets/images/houses/p-img-3.jpg'],
+      pdfUrl: 'https://drive.google.com/file/d/1SP5xCwJMxED_g9ryKKUFsSrXR9fKYrzR/view?usp=drive_link',
+      amenities: ['Piscina', 'Varanda', 'Garagem'],
+      showPdf: false
     },
 
 
