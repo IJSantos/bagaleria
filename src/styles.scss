@@ -168,6 +168,21 @@ body, .navbar, .navbar-brand, .sidebar, .gallery-beach, .house-card {
   box-shadow: 0 4px 16px 0 rgba(33, 147, 176, 0.15);
 }
 
+.navbar .navbar-brand {
+  white-space: normal;
+  word-break: break-word;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 575.98px) {
+  .navbar .navbar-brand {
+    font-size: 1rem;
+    padding-right: 0;
+    padding-left: 0;
+    line-height: 1.2;
+  }
+}
+
 @media (min-width: 768px) {
   .min-w-md-220px {
     min-width: 220px;

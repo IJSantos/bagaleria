@@ -10,4 +10,5 @@ export interface House {
   images: string[];
   pdfUrl: string;
   amenities: string[];
+  showPdf?: boolean;
 }

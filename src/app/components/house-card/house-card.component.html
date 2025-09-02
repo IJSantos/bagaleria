@@ -43,7 +43,11 @@
       <h4 class="text-success">R$ {{ house.price | number }}</h4>
     </div> -->
 
-    <button class="btn btn-primary w-100" (click)="downloadPdf()">
+    <button
+      class="btn btn-primary w-100"
+      (click)="downloadPdf()"
+      [disabled]="!house.showPdf"
+    >
       <i class="bi bi-download me-2"></i>
       Baixar Guia de Apresentação
     </button>

@@ -16,8 +16,9 @@ export class HouseService {
       bathrooms: 2,
       area: 250,
       images: ['assets/images/houses/g-img-2.JPG', 'assets/images/houses/g-img-1.JPG', 'assets/images/houses/g-img-3.JPG'],
-      pdfUrl: 'https://drive.google.com/file/d/1K0Tq4UmQ7TjED0-ypMmdvKppP_TI1fBs/view?usp=drive_link',
-      amenities: ['Piscina', 'Varanda', 'Garagem']
+      pdfUrl: 'xxxxxxxxxxxxxxx',
+      amenities: ['Piscina', 'Varanda', 'Garagem'],
+      showPdf: false
     },
     {
       id: 2,
@@ -29,8 +30,9 @@ export class HouseService {
       bathrooms: 1,
       area: 150,
       images: ['assets/images/houses/d-img-1.jpg', 'assets/images/houses/d-img-2.jpg', 'assets/images/houses/d-img-3.jpg'],
-      pdfUrl: 'https://drive.google.com/file/d/1To1TPqiMYbXhUVlBr7lU1EpiuXbjf91X/view?usp=drive_link',
-      amenities: ['Piscina', 'Varanda', 'Garagem']
+      pdfUrl: 'https://drive.google.com/file/d/1SP5xCwJMxED_g9ryKKUFsSrXR9fKYrzR/view?usp=drive_link',
+      amenities: ['Piscina', 'Varanda', 'Garagem'],
+      showPdf: true
     },
     {
       id: 3,
@@ -43,7 +45,8 @@ export class HouseService {
       area: 180,
       images: ['assets/images/houses/c-img-1.jpg', 'assets/images/houses/c-img-2.jpg', 'assets/images/houses/c-img-3.jpg'],
       pdfUrl: 'https://drive.google.com/file/d/1K0Tq4UmQ7TjED0-ypMmdvKppP_TI1fBs/view?usp=drive_link',
-      amenities: ['Piscina', 'Varanda', 'Garagem']
+      amenities: ['Piscina', 'Varanda', 'Garagem'],
+      showPdf: true      
     },
     {
       id: 4,
@@ -56,7 +59,8 @@ export class HouseService {
       area: 180,
       images: ['assets/images/houses/c-img-2.jpg', 'assets/images/houses/c-img-3.jpg', 'assets/images/houses/c-img-1.jpg'],
       pdfUrl: 'https://drive.google.com/file/d/1K0Tq4UmQ7TjED0-ypMmdvKppP_TI1fBs/view?usp=drive_link',
-      amenities: ['Piscina', 'Varanda', 'Garagem']
+      amenities: ['Piscina', 'Varanda', 'Garagem'],
+      showPdf: true
     },
     {
       id: 5,
@@ -68,8 +72,9 @@ export class HouseService {
       bathrooms: 2,
       area: 250,
       images: ['assets/images/houses/g-img-3.JPG', 'assets/images/houses/g-img-2.JPG', 'assets/images/houses/g-img-1.JPG'],
-      pdfUrl: 'https://drive.google.com/file/d/1To1TPqiMYbXhUVlBr7lU1EpiuXbjf91X/view?usp=drive_link',
-      amenities: ['Piscina', 'Varanda', 'Garagem']
+      pdfUrl: 'xxxxxxxxxxxxxxx',
+      amenities: ['Piscina', 'Varanda', 'Garagem'],
+      showPdf: false
     },
     {
       id: 6,
@@ -81,8 +86,9 @@ export class HouseService {
       bathrooms: 1,
       area: 150,
       images: ['assets/images/houses/d-img-3.jpg', 'assets/images/houses/d-img-2.jpg', 'assets/images/houses/d-img-1.jpg'],
-      pdfUrl: 'https://drive.google.com/file/d/1To1TPqiMYbXhUVlBr7lU1EpiuXbjf91X/view?usp=drive_link',
-      amenities: ['Piscina', 'Varanda', 'Garagem']
+      pdfUrl: 'https://drive.google.com/file/d/1SP5xCwJMxED_g9ryKKUFsSrXR9fKYrzR/view?usp=drive_link',
+      amenities: ['Piscina', 'Varanda', 'Garagem'],
+      showPdf: true
     },
 
 
