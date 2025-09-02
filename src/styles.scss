@@ -202,3 +202,11 @@ main {
   color: #fff !important;
   text-shadow: 0 2px 8px rgba(24,90,157,0.15);
 }
+
+.btn[disabled], .btn:disabled {
+  background: #bfc4c9 !important;
+  color: #6c757d !important;
+  border: none !important;
+  box-shadow: none !important;
+  cursor: not-allowed !important;
+}
