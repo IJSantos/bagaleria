@@ -22,5 +22,5 @@ import { GalleryComponent } from './components/gallery/gallery.component';
   styleUrls: ['./app.scss']
 })
 export class App {
-  title = 'BAgaleria - Sua casa de praia no sul da Bahia';
+  title = 'BAgaleria - Ofertas de casas, apartamentos e muito mais no sul da Bahia';
 }
